@@ -31,10 +31,10 @@ add details from there bellow:
 - MAIL_FROM_ADDRESS=your_email_sender@proton.me
 - MAIL_FROM_NAME="${app-name}"
 - SENDINBLUE_SENDER=your_email_sender@proton.me
-- SENDINBLUE_API_KEY=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
+- SENDINBLUE_API_KEY=your_token
 
-##API methods — This API allows you to build your own customized Email clients.
-##api/notification/send/email/attachment POST
+## API methods — This API allows you to build your own customized Email clients.
+## api/notification/send/email/attachment POST
 request:
 
 {
@@ -47,5 +47,5 @@ request:
 
 response:
 {
-ایمیل ارسال شد.
+ایمیل ارسال شد 
 }
